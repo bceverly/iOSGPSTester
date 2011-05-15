@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface iOSGPSTesterAppDelegate : NSObject <UIApplicationDelegate> {
-
+    CLLocationManager *locMgr;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) CLLocationManager *locMgr;
 
 @end

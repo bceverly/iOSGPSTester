@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+
 #import "iOSGPSTesterAppDelegate.h"
 
-@interface iOSGPSTesterAppDelegate_iPhone : iOSGPSTesterAppDelegate {
-    
+@interface iOSGPSTesterAppDelegate_iPhone : iOSGPSTesterAppDelegate<CLLocationManagerDelegate> {
+    IBOutlet UILabel *currentLatitude;
+    IBOutlet UILabel *currentLongitude;
+    IBOutlet UILabel *currentAltitude;
+
+    IBOutlet UILabel *xyAccuracy;
+    IBOutlet UILabel *zAccuracy;
 }
 
 @end

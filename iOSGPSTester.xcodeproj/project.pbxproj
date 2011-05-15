@@ -17,6 +17,7 @@
 		BB35676413805077000CF79F /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB35676213805077000CF79F /* MainWindow_iPhone.xib */; };
 		BB35676813805077000CF79F /* iOSGPSTesterAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = BB35676713805077000CF79F /* iOSGPSTesterAppDelegate_iPad.m */; };
 		BB35676B13805077000CF79F /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB35676913805077000CF79F /* MainWindow_iPad.xib */; };
+		BB35677213805796000CF79F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB35677113805796000CF79F /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,18 +25,19 @@
 		BB35674C13805077000CF79F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BB35674E13805077000CF79F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BB35675013805077000CF79F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BB35675413805077000CF79F /* iOSGPSTester-Info.plist */ = {isa = PBXFileReference; path = "iOSGPSTester-Info.plist"; sourceTree = "<group>"; };
+		BB35675413805077000CF79F /* iOSGPSTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSGPSTester-Info.plist"; sourceTree = "<group>"; };
 		BB35675613805077000CF79F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BB35675813805077000CF79F /* iOSGPSTester-Prefix.pch */ = {isa = PBXFileReference; path = "iOSGPSTester-Prefix.pch"; sourceTree = "<group>"; };
+		BB35675813805077000CF79F /* iOSGPSTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSGPSTester-Prefix.pch"; sourceTree = "<group>"; };
 		BB35675913805077000CF79F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BB35675B13805077000CF79F /* iOSGPSTesterAppDelegate.h */ = {isa = PBXFileReference; path = iOSGPSTesterAppDelegate.h; sourceTree = "<group>"; };
+		BB35675B13805077000CF79F /* iOSGPSTesterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSGPSTesterAppDelegate.h; sourceTree = "<group>"; };
 		BB35675C13805077000CF79F /* iOSGPSTesterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSGPSTesterAppDelegate.m; sourceTree = "<group>"; };
-		BB35675F13805077000CF79F /* iOSGPSTesterAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = iOSGPSTesterAppDelegate_iPhone.h; path = iPhone/iOSGPSTesterAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		BB35675F13805077000CF79F /* iOSGPSTesterAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iOSGPSTesterAppDelegate_iPhone.h; path = iPhone/iOSGPSTesterAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		BB35676013805077000CF79F /* iOSGPSTesterAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iOSGPSTesterAppDelegate_iPhone.m; path = iPhone/iOSGPSTesterAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		BB35676313805077000CF79F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		BB35676613805077000CF79F /* iOSGPSTesterAppDelegate_iPad.h */ = {isa = PBXFileReference; name = iOSGPSTesterAppDelegate_iPad.h; path = iPad/iOSGPSTesterAppDelegate_iPad.h; sourceTree = "<group>"; };
+		BB35676613805077000CF79F /* iOSGPSTesterAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iOSGPSTesterAppDelegate_iPad.h; path = iPad/iOSGPSTesterAppDelegate_iPad.h; sourceTree = "<group>"; };
 		BB35676713805077000CF79F /* iOSGPSTesterAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iOSGPSTesterAppDelegate_iPad.m; path = iPad/iOSGPSTesterAppDelegate_iPad.m; sourceTree = "<group>"; };
 		BB35676A13805077000CF79F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		BB35677113805796000CF79F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB35677213805796000CF79F /* CoreLocation.framework in Frameworks */,
 				BB35674D13805077000CF79F /* UIKit.framework in Frameworks */,
 				BB35674F13805077000CF79F /* Foundation.framework in Frameworks */,
 				BB35675113805077000CF79F /* CoreGraphics.framework in Frameworks */,
@@ -55,6 +58,7 @@
 		BB35673D13805077000CF79F = {
 			isa = PBXGroup;
 			children = (
+				BB35677113805796000CF79F /* CoreLocation.framework */,
 				BB35675213805077000CF79F /* iOSGPSTester */,
 				BB35674B13805077000CF79F /* Frameworks */,
 				BB35674913805077000CF79F /* Products */,

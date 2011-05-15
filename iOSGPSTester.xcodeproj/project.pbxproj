@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB35674D13805077000CF79F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB35674C13805077000CF79F /* UIKit.framework */; };
+		BB35674F13805077000CF79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB35674E13805077000CF79F /* Foundation.framework */; };
+		BB35675113805077000CF79F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB35675013805077000CF79F /* CoreGraphics.framework */; };
+		BB35675713805077000CF79F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB35675513805077000CF79F /* InfoPlist.strings */; };
+		BB35675A13805077000CF79F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB35675913805077000CF79F /* main.m */; };
+		BB35675D13805077000CF79F /* iOSGPSTesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB35675C13805077000CF79F /* iOSGPSTesterAppDelegate.m */; };
+		BB35676113805077000CF79F /* iOSGPSTesterAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = BB35676013805077000CF79F /* iOSGPSTesterAppDelegate_iPhone.m */; };
+		BB35676413805077000CF79F /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB35676213805077000CF79F /* MainWindow_iPhone.xib */; };
+		BB35676813805077000CF79F /* iOSGPSTesterAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = BB35676713805077000CF79F /* iOSGPSTesterAppDelegate_iPad.m */; };
+		BB35676B13805077000CF79F /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB35676913805077000CF79F /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB35674813805077000CF79F /* iOSGPSTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGPSTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB35674C13805077000CF79F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB35674E13805077000CF79F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB35675013805077000CF79F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB35675413805077000CF79F /* iOSGPSTester-Info.plist */ = {isa = PBXFileReference; path = "iOSGPSTester-Info.plist"; sourceTree = "<group>"; };
+		BB35675613805077000CF79F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB35675813805077000CF79F /* iOSGPSTester-Prefix.pch */ = {isa = PBXFileReference; path = "iOSGPSTester-Prefix.pch"; sourceTree = "<group>"; };
+		BB35675913805077000CF79F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB35675B13805077000CF79F /* iOSGPSTesterAppDelegate.h */ = {isa = PBXFileReference; path = iOSGPSTesterAppDelegate.h; sourceTree = "<group>"; };
+		BB35675C13805077000CF79F /* iOSGPSTesterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSGPSTesterAppDelegate.m; sourceTree = "<group>"; };
+		BB35675F13805077000CF79F /* iOSGPSTesterAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = iOSGPSTesterAppDelegate_iPhone.h; path = iPhone/iOSGPSTesterAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		BB35676013805077000CF79F /* iOSGPSTesterAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iOSGPSTesterAppDelegate_iPhone.m; path = iPhone/iOSGPSTesterAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		BB35676313805077000CF79F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		BB35676613805077000CF79F /* iOSGPSTesterAppDelegate_iPad.h */ = {isa = PBXFileReference; name = iOSGPSTesterAppDelegate_iPad.h; path = iPad/iOSGPSTesterAppDelegate_iPad.h; sourceTree = "<group>"; };
+		BB35676713805077000CF79F /* iOSGPSTesterAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iOSGPSTesterAppDelegate_iPad.m; path = iPad/iOSGPSTesterAppDelegate_iPad.m; sourceTree = "<group>"; };
+		BB35676A13805077000CF79F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB35674513805077000CF79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB35674D13805077000CF79F /* UIKit.framework in Frameworks */,
+				BB35674F13805077000CF79F /* Foundation.framework in Frameworks */,
+				BB35675113805077000CF79F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB35673D13805077000CF79F = {
+			isa = PBXGroup;
+			children = (
+				BB35675213805077000CF79F /* iOSGPSTester */,
+				BB35674B13805077000CF79F /* Frameworks */,
+				BB35674913805077000CF79F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB35674913805077000CF79F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB35674813805077000CF79F /* iOSGPSTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB35674B13805077000CF79F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB35674C13805077000CF79F /* UIKit.framework */,
+				BB35674E13805077000CF79F /* Foundation.framework */,
+				BB35675013805077000CF79F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB35675213805077000CF79F /* iOSGPSTester */ = {
+			isa = PBXGroup;
+			children = (
+				BB35675B13805077000CF79F /* iOSGPSTesterAppDelegate.h */,
+				BB35675C13805077000CF79F /* iOSGPSTesterAppDelegate.m */,
+				BB35675E13805077000CF79F /* iPhone */,
+				BB35676513805077000CF79F /* iPad */,
+				BB35675313805077000CF79F /* Supporting Files */,
+			);
+			path = iOSGPSTester;
+			sourceTree = "<group>";
+		};
+		BB35675313805077000CF79F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB35675413805077000CF79F /* iOSGPSTester-Info.plist */,
+				BB35675513805077000CF79F /* InfoPlist.strings */,
+				BB35675813805077000CF79F /* iOSGPSTester-Prefix.pch */,
+				BB35675913805077000CF79F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB35675E13805077000CF79F /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				BB35675F13805077000CF79F /* iOSGPSTesterAppDelegate_iPhone.h */,
+				BB35676013805077000CF79F /* iOSGPSTesterAppDelegate_iPhone.m */,
+				BB35676213805077000CF79F /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		BB35676513805077000CF79F /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BB35676613805077000CF79F /* iOSGPSTesterAppDelegate_iPad.h */,
+				BB35676713805077000CF79F /* iOSGPSTesterAppDelegate_iPad.m */,
+				BB35676913805077000CF79F /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB35674713805077000CF79F /* iOSGPSTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB35676E13805077000CF79F /* Build configuration list for PBXNativeTarget "iOSGPSTester" */;
+			buildPhases = (
+				BB35674413805077000CF79F /* Sources */,
+				BB35674513805077000CF79F /* Frameworks */,
+				BB35674613805077000CF79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSGPSTester;
+			productName = iOSGPSTester;
+			productReference = BB35674813805077000CF79F /* iOSGPSTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB35673F13805077000CF79F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "BCE Associates, Inc.";
+			};
+			buildConfigurationList = BB35674213805077000CF79F /* Build configuration list for PBXProject "iOSGPSTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB35673D13805077000CF79F;
+			productRefGroup = BB35674913805077000CF79F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB35674713805077000CF79F /* iOSGPSTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB35674613805077000CF79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB35675713805077000CF79F /* InfoPlist.strings in Resources */,
+				BB35676413805077000CF79F /* MainWindow_iPhone.xib in Resources */,
+				BB35676B13805077000CF79F /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB35674413805077000CF79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB35675A13805077000CF79F /* main.m in Sources */,
+				BB35675D13805077000CF79F /* iOSGPSTesterAppDelegate.m in Sources */,
+				BB35676113805077000CF79F /* iOSGPSTesterAppDelegate_iPhone.m in Sources */,
+				BB35676813805077000CF79F /* iOSGPSTesterAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB35675513805077000CF79F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB35675613805077000CF79F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB35676213805077000CF79F /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB35676313805077000CF79F /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BB35676913805077000CF79F /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB35676A13805077000CF79F /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB35676C13805077000CF79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB35676D13805077000CF79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB35676F13805077000CF79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSGPSTester/iOSGPSTester-Prefix.pch";
+				INFOPLIST_FILE = "iOSGPSTester/iOSGPSTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB35677013805077000CF79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSGPSTester/iOSGPSTester-Prefix.pch";
+				INFOPLIST_FILE = "iOSGPSTester/iOSGPSTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB35674213805077000CF79F /* Build configuration list for PBXProject "iOSGPSTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB35676C13805077000CF79F /* Debug */,
+				BB35676D13805077000CF79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB35676E13805077000CF79F /* Build configuration list for PBXNativeTarget "iOSGPSTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB35676F13805077000CF79F /* Debug */,
+				BB35677013805077000CF79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB35673F13805077000CF79F /* Project object */;
+}

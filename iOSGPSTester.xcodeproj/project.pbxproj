@@ -18,6 +18,7 @@
 		BB35676813805077000CF79F /* iOSGPSTesterAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = BB35676713805077000CF79F /* iOSGPSTesterAppDelegate_iPad.m */; };
 		BB35676B13805077000CF79F /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB35676913805077000CF79F /* MainWindow_iPad.xib */; };
 		BB35677213805796000CF79F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB35677113805796000CF79F /* CoreLocation.framework */; };
+		BBD3B0CC13814B0100A461E6 /* AccuracyBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD3B0CB13814B0100A461E6 /* AccuracyBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		BB35676713805077000CF79F /* iOSGPSTesterAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iOSGPSTesterAppDelegate_iPad.m; path = iPad/iOSGPSTesterAppDelegate_iPad.m; sourceTree = "<group>"; };
 		BB35676A13805077000CF79F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		BB35677113805796000CF79F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BBD3B0CA13814B0100A461E6 /* AccuracyBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccuracyBarView.h; sourceTree = "<group>"; };
+		BBD3B0CB13814B0100A461E6 /* AccuracyBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccuracyBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				BB35675E13805077000CF79F /* iPhone */,
 				BB35676513805077000CF79F /* iPad */,
 				BB35675313805077000CF79F /* Supporting Files */,
+				BBD3B0CA13814B0100A461E6 /* AccuracyBarView.h */,
+				BBD3B0CB13814B0100A461E6 /* AccuracyBarView.m */,
 			);
 			path = iOSGPSTester;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 				BB35675D13805077000CF79F /* iOSGPSTesterAppDelegate.m in Sources */,
 				BB35676113805077000CF79F /* iOSGPSTesterAppDelegate_iPhone.m in Sources */,
 				BB35676813805077000CF79F /* iOSGPSTesterAppDelegate_iPad.m in Sources */,
+				BBD3B0CC13814B0100A461E6 /* AccuracyBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +313,7 @@
 				BB35677013805077000CF79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

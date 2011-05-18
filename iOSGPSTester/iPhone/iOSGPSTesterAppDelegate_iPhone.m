@@ -9,6 +9,8 @@
 #import "iOSGPSTesterAppDelegate_iPhone.h"
 
 @implementation iOSGPSTesterAppDelegate_iPhone
+@synthesize xyAccuracyBarView;
+@synthesize zAccuracyBarView;
 
 - (id)init {
     self = [super init];
@@ -19,7 +21,7 @@
     }
     
     [locMgr startUpdatingLocation];
-    locMgr.desiredAccuracy = 1;
+    locMgr.desiredAccuracy = kCLLocationAccuracyBest;
     
     return self;
 }
@@ -32,6 +34,8 @@
     [currentAltitude release];
     [xyAccuracy release];
     [zAccuracy release];
+    [xyAccuracyBarView release];
+    [zAccuracyBarView release];
 	[super dealloc];
 }
 
@@ -59,6 +63,21 @@
     [currentLatitude setText:nsLatitude];
     [xyAccuracy setText:nsXYAccuracy];
     [zAccuracy setText:nsZAccuracy];
+
+    // Update the xyAccuracy
+    AccuracyBarView *theView = self.xyAccuracyBarView;
+//    [theView.currentAccuracy release];
+    theView.currentAccuracy = [[NSNumber alloc]initWithFloat:horizontalAccuracy];
+//    [theView.bestAccuracy release];
+    theView.bestAccuracy = [[NSNumber alloc]initWithFloat:5.0];  // Best guess
+    [theView setNeedsDisplay];
+
+    theView = self.zAccuracyBarView;
+//    [theView.currentAccuracy release];
+    theView.currentAccuracy = [[NSNumber alloc]initWithFloat:verticalAccuracy];
+//    [theView.bestAccuracy release];
+    theView.bestAccuracy = [[NSNumber alloc]initWithFloat:10.0]; // Best guess
+    [theView setNeedsDisplay];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
